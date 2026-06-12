@@ -161,5 +161,5 @@ int main() {
 
     printColored("\nStay safe! 🔒", "cyan");
 
-    return 0;
+    return 0;
 }
