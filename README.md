@@ -76,6 +76,7 @@ The core logic resides in `password_analyzer.cpp`. It utilizes:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="center">
-  Developed with ❤️ by <b>Team Softece</b><br>
+  Developed with ❤️ by <b>Fuad
+  </b><br>
   <i>Computer and Cyber Security | Green University of Bangladesh</i>
 </p>
