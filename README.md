@@ -1,82 +1,81 @@
 <div align="center">
 
-# Computer and Cyber Security 🛡️
-### The Ultimate AI-Powered Smart Gardening Ecosystem (Concept)
-*Empowering gardeners with cutting-edge AI, a thriving marketplace, and a global community.*
+# 🛡️ Computer and Cyber Security
+### **C++ Password Strength Analyzer & Threat Simulation Engine**
 
-[![Platform](https://img.shields.io/badge/Platform-Android-00dc82.svg?style=flat-square)](#)
-[![Language](https://img.shields.io/badge/Language-Java-f8981d.svg?style=flat-square)](#)
-[![Backend](https://img.shields.io/badge/Backend-Firebase-ffca28.svg?style=flat-square)](#)
-[![AI](https://img.shields.io/badge/AI-Gemini-7b61ff.svg?style=flat-square)](#)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Domain](https://img.shields.io/badge/Domain-Cyber_Security-red?style=for-the-badge)](https://en.wikipedia.org/wiki/Computer_security)
+[![Interface](https://img.shields.io/badge/Interface-Interactive_CLI-darkgreen?style=for-the-badge)](password_analyzer.cpp)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+**An interactive security auditing and brute-force simulation utility designed to analyze cryptographic entropy and vulnerability profiles.**
 
 ---
 
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Technical Setup](#-getting-started) • [Tech Stack](#-technical-details)
+
 </div>
 
+---
+
 ## 📖 Overview
+**Computer and Cyber Security** is a native **C++** security laboratory tool featuring a specialized **Password Strength Analyzer and Ethical Hacking Simulator**. Designed to demonstrate password entropy vulnerabilities, dictionary attack surfaces, and brute-force cracking resistance, it provides educational insights into credential defense mechanisms through real-time telemetry and ANSI color terminal animations.
 
-This repository contains the core security module for a broader ecosystem. Currently, it features a specialized **Cyber Password Strength Analyzer and Hacker Simulation** tool. This tool is designed to educate users on password vulnerabilities and the mechanics of various cyber attacks.
-
-> [!NOTE]
-> While the badges above reflect the target ecosystem's technology stack (Android, Firebase, Gemini), this specific module is implemented in **C++** for performance and low-level simulation accuracy.
+---
 
 ## ✨ Key Features
 
-- **Advanced Password Analysis**: Evaluates passwords based on length, character variety (upper/lower case, digits, symbols), and complexity.
-- **Strength Scoring**: Provides a quantitative score and qualitative strength rating (Very Weak to Strong).
-- **Attack Vector Suggestion**: Recommends likely attack methods (Brute-force, Dictionary, Hybrid, etc.) based on the password's profile.
-- **Real-time Hacking Simulation**: Visualizes a simulated crack attempt, providing a "hacker's perspective" on how vulnerabilities are exploited.
-- **Dynamic Terminal UI**: Uses colored output and typing effects for an immersive experience.
+- 🔐 **Entropy & Complexity Scorer:** Dynamically evaluates character distribution (lowercase, uppercase, digits, symbols), length, and repeating sequences.
+- 🎯 **Attack Vector Prediction:** Identifies whether a credential is most susceptible to rainbow tables, dictionary attacks, or brute-force enumeration.
+- ⚡ **Real-Time Crack Simulation:** Simulates an attacker's trial-and-error discovery with live ANSI-colored visual feedback and progressive crack times.
+- 🖥️ **Immersive Cyber Terminal UI:** Engineered with custom terminal typing effects, color-coded threat alerts, and vulnerability summaries.
+
+---
+
+## 📁 Project Structure
+
+```text
+Computer-and-Cyber-Security/
+├── password_analyzer.cpp       # Core analyzer and terminal simulation engine
+├── LICENSE                     # MIT License
+└── README.md                   # Documentation and usage guide
+```
+
+---
+
+## 🛠️ Technical Details
+
+The core security algorithms reside in [`password_analyzer.cpp`](file:///c:/Users/fuadk/Documents/GitHub/DEMO/Computer-and-Cyber-Security/password_analyzer.cpp):
+- `analyzePassword()`: Multi-factor scoring algorithm weighting entropy, length, and collision probability.
+- `simulateCrack()`: Realistic cryptographic crack duration simulation based on candidate character sets ($N^L$).
+- `typeText()` & `printColored()`: Low-level POSIX/Win32 ANSI escape sequence renderer.
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 1. Prerequisites
+- Standard C++ compiler (`g++`, `clang++`, or MinGW).
 
-- A C++ compiler (e.g., `g++`, `clang++`, or MinGW on Windows).
-- Terminal with ANSI color support.
-
-### Compilation
-
-Clone the repository and compile the source file:
-
+### 2. Compilation
 ```bash
-g++ -o password_analyzer password_analyzer.cpp
+g++ -O3 -o password_analyzer password_analyzer.cpp
 ```
 
-### Usage
-
-Run the compiled executable:
-
+### 3. Execution
 ```bash
 ./password_analyzer
 ```
 
-## 📂 Project Structure
-
-```
-.
-├── .idea/                  # IDE configuration files
-├── LICENSE                 # MIT License
-├── README.md               # Project documentation
-└── password_analyzer.cpp   # Main source code (Password Analyzer & Simulator)
-```
-
-## 🛠️ Technical Details
-
-The core logic resides in `password_analyzer.cpp`. It utilizes:
-- `analyzePassword()`: A scoring algorithm that weights different character types and lengths.
-- `simulateCrack()`: A visual simulation that calculates "difficulty" based on the analysis score.
-- `typeText()` & `printColored()`: Helper functions for the custom terminal UI.
-
 ---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad
-  </b><br>
-  <i>Computer and Cyber Security | Green University of Bangladesh</i>
-</p>
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Computer and Cyber Security | Green University of Bangladesh*
+
+</div>
