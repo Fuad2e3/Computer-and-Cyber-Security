@@ -12,7 +12,7 @@
 
 ---
 
-[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Technical Setup](#-getting-started) • [Tech Stack](#-technical-details)
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-technical-details)
 
 </div>
 
@@ -52,30 +52,11 @@ The core security algorithms reside in [`password_analyzer.cpp`](file:///c:/User
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Prerequisites
-- Standard C++ compiler (`g++`, `clang++`, or MinGW).
-
-### 2. Compilation
-```bash
-g++ -O3 -o password_analyzer password_analyzer.cpp
-```
-
-### 3. Execution
-```bash
-./password_analyzer
-```
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Computer and Cyber Security | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
